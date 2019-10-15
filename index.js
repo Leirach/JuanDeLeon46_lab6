@@ -39,7 +39,7 @@ $(":button").click(function(event)
         url: "https://www.googleapis.com/youtube/v3/search",
         method: "GET",
         data: {
-                "key": "AIzaSyB8yvPbcXzmqZ9GY06II-1Fb3U4HqQm9u0",
+                "key": "[GOOGLE API KEY]",
                 "part": "id,snippet",
                 "q": q,
                 "maxResults": 10,
